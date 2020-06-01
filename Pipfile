@@ -6,6 +6,7 @@ verify_ssl = true
 [dev-packages]
 scikit-learn = "*"
 pandas = "*"
+twine = "*"
 
 [packages]
 numpy = "*"
