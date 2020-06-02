@@ -3,7 +3,7 @@ created for DS15: Unit 3
 
 ## Installation
 
-TODO
+pip install ____________
 
 ## Usage
 
@@ -11,8 +11,9 @@ TODO
 
 ``` py
 
-# todo
+from my_lambdata.my_mod import enlarge
 
+print(enlarge(8))
 ```
 
 <hr>
