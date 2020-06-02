@@ -1,5 +1,5 @@
 # TODO: Abbreviate states and un-abbreviate them in a pandas dataframe. 
-import pandas as pd
+from pandas import DataFrame
 
 def add_state_names_column(my_df):
     """
@@ -28,7 +28,7 @@ def add_state_names_column(my_df):
 
 if __name__ == "__main__":
 
-    df = pd.DataFrame({"abbrev": ["CA","CO","CT","DC","TX"]})
+    df = DataFrame({"abbrev": ["CA","CO","CT","DC","TX"]})
     print(df.head())
 
     mapped_df = add_state_names_column(df)
