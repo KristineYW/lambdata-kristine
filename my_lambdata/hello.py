@@ -1,5 +1,6 @@
 # Import enlarge function
 from my_mod import split, date_split
+import pandas as pd
 from pandas import DataFrame
 from scikit-learn.model_selection import train_test_split
 
