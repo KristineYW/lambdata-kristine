@@ -1,15 +1,14 @@
 # Import enlarge function
-from my_mod import enlarge, derp
+from my_mod import split, date_split
 from pandas import DataFrame
 
 
-print ("HELLO")
-
-# Invoke enlarge()
-print(enlarge(8))
 
 df = DataFrame({'state':['CT','CO','CA','TX']})
 print(df.head())
 
-# Invoke derp function
-derp()
+# Invoke split
+split(df)
+
+# Invoke date_split function
+date_split()
