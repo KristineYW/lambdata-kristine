@@ -1,8 +1,9 @@
 # Create class for new dataframe
 import pandas as pd
-from scikit-learn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 
 class NewDF():
+
     def __init__(self, df, target, column):
         self.df = df
         self.target = target
