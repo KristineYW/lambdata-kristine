@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="lambdata-kristineyw", # the name that you will install via pip
-    version="1.1",
+    version="1.2",
     author="Kristine Wang",
     author_email="ywang03@email.com",
     description="Kristine's First VS-Borne Project!",
