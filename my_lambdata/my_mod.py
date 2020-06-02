@@ -8,9 +8,9 @@ def enlarge(n):
     return n * 100
 
 # Split a dataframe into train, val, and test sets
-def split(df):
-    train1, val = train_test_split(df, train_size=0.85, test_size=0.15, random_state=42)
-    train2, test = train_test_split(train1, train_size=0.8, test_size=0.2, random_state=42)
+def split(df, target):
+    train1, val = train_test_split(df, train_size=0.85, test_size=0.15, stratify=df['target'], random_state=42)
+    train2, test = train_test_split(train1, train_size=0.8, test_size=0.2, stratify=df['target'], random_state=42)
     return(train2, val, test)
 
 # Assign datetime datatype to a column and then split into year, month, and day columns
